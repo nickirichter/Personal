@@ -1,0 +1,267 @@
+seq seqPRP
+
+
+
+CMD CDH_cmd_NOOP
+
+CMD PRP_cmd_NOOP
+
+CMD PRP_cmd_CNTRESET
+
+CMD PRP_cmd_DVCATHTR switch on side pri
+
+CMD PRP_cmd_DVCATHTR switch on side rdnt
+
+CMD PRP_cmd_DVCATHTR switch off side pri
+
+CMD PRP_cmd_DVCATHTR switch off side rdnt
+
+CMD PRP_cmd_DVCATHTRON_P
+
+CMD PRP_cmd_DVCATHTRON_R
+
+CMD PRP_cmd_DVCATHTROFF_P
+
+CMD PRP_cmd_DVCATHTROFF_R
+
+CMD PRP_cmd_PDX switch on side pri
+
+CMD PRP_cmd_PDX switch on side rdnt
+
+CMD PRP_cmd_PDX switch off side pri
+
+CMD PRP_cmd_PDX switch off side rdnt
+
+CMD PRP_cmd_PDXON_P
+
+CMD PRP_cmd_PDXON_R
+
+CMD PRP_cmd_PDXOFF_P
+
+CMD PRP_cmd_PDXOFF_R
+
+CMD PRP_cmd_RCSCATHTR switch on side pri
+
+CMD PRP_cmd_RCSCATHTR switch on side rdnt
+
+CMD PRP_cmd_RCSCATHTR switch off side pri
+
+CMD PRP_cmd_RCSCATHTR switch off side rdnt
+
+CMD PRP_cmd_RCSCATHTRON_P
+
+CMD PRP_cmd_RCSCATHTRON_R
+
+CMD PRP_cmd_RCSCATHTROFF_P
+
+CMD PRP_cmd_RCSCATHTROFF_R
+
+CMD PRP_cmd_LV_ARM switch close valve lv1
+
+CMD PRP_cmd_LV_EN switch close valve lv1
+
+CMD PRP_cmd_LV_FIRE switch close valve lv1
+
+CMD PRP_cmd_LV_ARM switch close valve lv2
+
+CMD PRP_cmd_LV_EN switch close valve lv2
+
+CMD PRP_cmd_LV_FIRE switch close valve lv2
+
+CMD PRP_cmd_LV_ARM switch close valve lv3
+
+CMD PRP_cmd_LV_EN switch close valve lv3
+
+CMD PRP_cmd_LV_FIRE switch close valve lv3
+
+CMD PRP_cmd_LV_ARM switch close valve lv4
+
+CMD PRP_cmd_LV_EN switch close valve lv4
+
+CMD PRP_cmd_LV_FIRE switch close valve lv4
+
+CMD PRP_cmd_LV_ARM switch close valve lv5
+
+CMD PRP_cmd_LV_EN switch close valve lv5
+
+CMD PRP_cmd_LV_FIRE switch close valve lv5
+
+CMD PRP_cmd_LV_ARM switch close valve lv6
+
+CMD PRP_cmd_LV_EN switch close valve lv6
+
+CMD PRP_cmd_LV_FIRE switch close valve lv6
+
+CMD PRP_cmd_LV_RDNTARM hbridge lv1
+
+CMD PRP_cmd_LV_RDNTEN hbridge lv1
+
+CMD PRP_cmd_LV_RDNTFIRE hbridge lv1
+
+CMD PRP_cmd_LV_RDNTARM hbridge lv2
+
+CMD PRP_cmd_LV_RDNTEN hbridge lv2
+
+CMD PRP_cmd_LV_RDNTFIRE hbridge lv2
+
+CMD PRP_cmd_LV_RDNTARM hbridge lv5
+
+CMD PRP_cmd_LV_RDNTEN hbridge lv5
+
+CMD PRP_cmd_LV_RDNTFIRE hbridge lv5
+
+CMD PRP_cmd_LV_RDNTARM hbridge lv6
+
+CMD PRP_cmd_LV_RDNTEN hbridge lv6
+
+CMD PRP_cmd_LV_RDNTFIRE hbridge lv6
+
+CMD PRP_cmd_LV_ARM switch open valve lv1
+
+CMD PRP_cmd_LV_EN switch open valve lv1
+
+CMD PRP_cmd_LV_FIRE switch open valve lv1
+
+CMD PRP_cmd_LV_ARM switch open valve lv2
+
+CMD PRP_cmd_LV_EN switch open valve lv2
+
+CMD PRP_cmd_LV_FIRE switch open valve lv2
+
+CMD PRP_cmd_LV_ARM switch open valve lv3
+
+CMD PRP_cmd_LV_EN switch open valve lv3
+
+CMD PRP_cmd_LV_FIRE switch open valve lv3
+
+CMD PRP_cmd_LV_ARM switch open valve lv4
+
+CMD PRP_cmd_LV_EN switch open valve lv4
+
+CMD PRP_cmd_LV_FIRE switch open valve lv4
+
+CMD PRP_cmd_LV_ARM switch open valve lv5
+
+CMD PRP_cmd_LV_EN switch open valve lv5
+
+CMD PRP_cmd_LV_FIRE switch open valve lv5
+
+CMD PRP_cmd_LV_ARM switch open valve lv6
+
+CMD PRP_cmd_LV_EN switch open valve lv6
+
+CMD PRP_cmd_LV_FIRE switch open valve lv6
+
+CMD PRP_cmd_LV1CL_ARM
+
+CMD PRP_cmd_LV1CL_EN
+
+CMD PRP_cmd_LV1CL_FIRE
+
+CMD PRP_cmd_LV2CL_ARM
+
+CMD PRP_cmd_LV2CL_EN
+
+CMD PRP_cmd_LV2CL_FIRE
+
+CMD PRP_cmd_LV3CL_ARM
+
+CMD PRP_cmd_LV3CL_EN
+
+CMD PRP_cmd_LV3CL_FIRE
+
+CMD PRP_cmd_LV4CL_ARM
+
+CMD PRP_cmd_LV4CL_EN
+
+CMD PRP_cmd_LV4CL_FIRE
+
+CMD PRP_cmd_LV5CL_ARM
+
+CMD PRP_cmd_LV5CL_EN
+
+CMD PRP_cmd_LV5CL_FIRE
+
+CMD PRP_cmd_LV6CL_ARM
+
+CMD PRP_cmd_LV6CL_EN
+
+CMD PRP_cmd_LV6CL_FIRE
+
+CMD PRP_cmd_LV1ALTOP_ARM
+
+CMD PRP_cmd_LV1ALTOP_EN
+
+CMD PRP_cmd_LV1ALTOP_FIRE
+
+CMD PRP_cmd_LV2ALTOP_ARM
+
+CMD PRP_cmd_LV2ALTOP_EN
+
+CMD PRP_cmd_LV2ALTOP_FIRE
+
+CMD PRP_cmd_LV5ALTOP_ARM
+
+CMD PRP_cmd_LV5ALTOP_EN
+
+CMD PRP_cmd_LV5ALTOP_FIRE
+
+CMD PRP_cmd_LV6ALTOP_ARM
+
+CMD PRP_cmd_LV6ALTOP_EN
+
+CMD PRP_cmd_LV6ALTOP_FIRE
+
+CMD PRP_cmd_LV1OP_ARM
+
+CMD PRP_cmd_LV1OP_EN
+
+CMD PRP_cmd_LV1OP_FIRE
+
+CMD PRP_cmd_LV2OP_ARM
+
+CMD PRP_cmd_LV2OP_EN
+
+CMD PRP_cmd_LV2OP_FIRE
+
+CMD PRP_cmd_LV3OP_ARM
+
+CMD PRP_cmd_LV3OP_EN
+
+CMD PRP_cmd_LV3OP_FIRE
+
+CMD PRP_cmd_LV4OP_ARM
+
+CMD PRP_cmd_LV4OP_EN
+
+CMD PRP_cmd_LV4OP_FIRE
+
+CMD PRP_cmd_LV5OP_ARM
+
+CMD PRP_cmd_LV5OP_EN
+
+CMD PRP_cmd_LV5OP_FIRE
+
+CMD PRP_cmd_LV6OP_ARM
+
+CMD PRP_cmd_LV6OP_EN
+
+CMD PRP_cmd_LV6OP_FIRE
+
+CMD PRP_cmd_HB_DS HBRIDGE LV1
+
+CMD PRP_cmd_HB_DS HBRIDGE LV2
+
+CMD PRP_cmd_HB_DS HBRIDGE LV5
+
+CMD PRP_cmd_HB_DS HBRIDGE LV6
+
+CMD PRP_cmd_HB_RDNTDS HBRIDGE LV1
+
+CMD PRP_cmd_HB_RDNTDS HBRIDGE LV2
+
+CMD PRP_cmd_HB_RDNTDS HBRIDGE LV5
+
+CMD PRP_cmd_HB_RDNTDS HBRIDGE LV6
+
+endseq

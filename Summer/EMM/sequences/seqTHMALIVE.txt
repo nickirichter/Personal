@@ -1,0 +1,229 @@
+seq seqTHMALIVE
+
+
+
+cmd THM_cmd_OBIT comp PRLOWHTRA state alive
+
+cmd THM_cmd_OBIT comp SURVHTRA_P state alive
+
+cmd THM_cmd_OBIT comp RCS57VHTR_P STATE ALIVE
+
+cmd THM_cmd_OBIT comp HYTANKMZHTR STATE ALIVE
+
+cmd THM_cmd_OBIT comp RCSPZPLHTR_P STATE ALIVE
+
+cmd THM_cmd_OBIT comp sadhtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv12vhtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv34vhtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs13vhtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv135plhtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs13plhtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs57plhtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp pcahtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp prlowhtrb STATE ALIVE
+
+cmd THM_cmd_OBIT comp survhtrb_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs68vhtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp hytankcylhtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp hetankhtr STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv56vhtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp piaplhtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs24vhtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv135plhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs13plhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs57plhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp pcahtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp prlowhtrc STATE ALIVE
+
+cmd THM_cmd_OBIT comp survhtra_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs57vhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp hytankpzhtr STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcspzplhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp sadhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv12vhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv34vhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs13vhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv246plhtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs24plhtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs68plhtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp piahtr_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp prlowhtrd STATE ALIVE
+
+cmd THM_cmd_OBIT comp survhtrb_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs68vhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp pca2hytankhtr STATE ALIVE
+
+cmd THM_cmd_OBIT comp hytankcylhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp hetank2pcahtr STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv56vhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp piaplhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs24vhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv246plhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs24plhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs68plhtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp piahtr_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp DV1VT_P state alive
+
+cmd THM_cmd_OBIT comp DV1VT_R state alive
+
+cmd THM_cmd_OBIT comp DV2VT_P STATE ALIVE
+
+cmd THM_cmd_OBIT comp DV2VT_P STATE ALIVE
+
+cmd THM_cmd_OBIT comp DV3VT_P STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv3vt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv4vt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv4vt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv5vt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv5vt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv6vt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv6vt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs1vt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs1vt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs2vt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs2vt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs3vt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs3vt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs4vt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs4vt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs5vt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs5vt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs6vt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs6vt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs7vt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs7vt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs8vt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs8vt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp hytankpzt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp hytankpzt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp hytankcylt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp hytankcylt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp hytankmzt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp hytankmzt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp hetankt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp hetankt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp hytank2piat_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp hytank2piat_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcspzplt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcspzplt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp hetank2pcat_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp hetank2pcat_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp pca2hytankt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp pca2hytankt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv135plt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv135plt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv246plt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp dv246plt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs13plt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs13plt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs24plt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs24plt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs57plt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs57plt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs68plt_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp rcs68plt_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp pcat_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp pcat_r STATE ALIVE
+
+cmd THM_cmd_OBIT comp piat_p STATE ALIVE
+
+cmd THM_cmd_OBIT comp piat_r STATE ALIVE
+
+cmd THM_cmd_CNTRESET
+
+endseq

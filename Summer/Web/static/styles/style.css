@@ -1,0 +1,4 @@
+document.getElementById('buttonID').onclick=function() {
+	document.getElementById('Theme 2').href='style2.css'
+}
+

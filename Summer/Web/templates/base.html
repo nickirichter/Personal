@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel= "stylesheet" type= "text/css" href= "{{url_for('static',filename='../static/styles/base.css') }}" >
+        {% if title %}
+        <title> {{ title }}- Your Site </title>
+        {% else %}
+        <title>Welcome to Site</title>
+        {% endif %}
+    </head>
+
+    <body>
+
+    <ul>
+        <li><a href="/index">Index</a></li>
+        <li><a href="/home">Page 2</a></li>
+        <li><a href="/page">Page 3</a></li>
+    </ul>
+    <hr>
+
+        {% block body %}
+
+            <h1>Hello World</h1>
+
+            <p>This is part of the body.</p>
+
+        {% endblock%}
+    </body>
+</html>

@@ -1,0 +1,131 @@
+seq seqES
+
+
+
+cmd CDH_cmd_NOOP
+;eslist cmds
+cmd FSW_cmd_HSUDALL
+
+cmd FSW_cmd_ESSHELL STR "ES_ListResources" FILE "/ram/downlink2/esresources.txt"
+
+cmd FSW_cmd_ESSHELL STR "ES_ListApps" FILE "/ram/downlink2/esapps.txt"
+
+cmd FSW_cmd_ESSHELL STR "ES_ListTasks" FILE "/ram/downlink2/estasks.txt"
+
+cmd FSW_cmd_ESPERFSTRT MODE CENTER
+
+wait for 30
+
+cmd FSW_cmd_ESPERFSTP FILE "/ram/downlink2/perfmon_center.h"
+;es cmds
+cmd FSW_cmd_ESNOOP
+
+cmd FSW_cmd_ESCNTRESET
+
+cmd FSW_cmd_ESSHELL STR "pwd" FILE "/ram/ops_test1.txt"
+
+cmd FSW_cmd_FMINFO NAME "/ram/ops_test1.txt" CRC ignore
+
+cmd FSW_cmd_FMRM NAME "/ram/ops_test1.txt"
+
+cmd FSW_cmd_ESQAPP NAME "ADC"
+
+cmd FSW_cmd_ESQALL FILE "/ram/ops_test2.txt"
+
+cmd FSW_cmd_FMINFO NAME "/ram/ops_test2.txt" CRC ignore
+
+cmd FSW_cmd_FMRM NAME "/ram/ops_test2.txt"
+
+cmd FSW_cmd_ESSYSLOGWRT FILE "/ram/ops_test3.txt"
+
+cmd FSW_cmd_FMINFO NAME "/ram/ops_test3.txt" CRC ignore
+
+cmd FSW_cmd_FMRM NAME "/ram/ops_test3.txt"
+
+cmd FSW_cmd_ESSYSLOGCLR
+
+cmd FSW_cmd_ESERLOGWRT FILE "/ram/ops_test4.txt"
+
+cmd FSW_cmd_FMINFO NAME "/ram/ops_test4.txt" CRC ignore
+
+cmd FSW_cmd_FMRM NAME "/ram/ops_test4.txt"
+
+cmd FSW_cmd_ESERLOGCLR
+
+cmd FSW_cmd_ESFILTER NUM 0 MASK 0
+
+cmd FSW_cmd_ESFILTER NUM 1 MASK 10
+
+cmd FSW_cmd_ESFILTER NUM 2 MASK 500
+
+cmd FSW_cmd_ESFILTER NUM 3 MASK 5000
+
+cmd FSW_cmd_ESTRIGGER NUM 0 MASK 0
+
+cmd FSW_cmd_ESTRIGGER NUM 1 MASK 10
+
+cmd FSW_cmd_ESTRIGGER NUM 2 MASK 500
+
+cmd FSW_cmd_ESTRIGGER NUM 3 MASK 5000
+
+cmd FSW_cmd_ESFILTER NUM 0 MASK 0xFFFFFFF
+
+cmd FSW_cmd_ESFILTER NUM 1 MASK 0xFFFFFFF
+
+cmd FSW_cmd_ESFILTER NUM 2 MASK 0xFFFFFFF
+
+cmd FSW_cmd_ESFILTER NUM 3 MASK 0xFFFFFFF
+
+cmd FSW_cmd_ESTRIGGER NUM 0 MASK 0
+
+cmd FSW_cmd_ESTRIGGER NUM 1 MASK 0
+
+cmd FSW_cmd_ESTRIGGER NUM 2 MASK 0
+
+cmd FSW_cmd_ESTRIGGER NUM 3 MASK 0
+
+cmd FSW_cmd_ESPERFSTRT MODE START
+
+cmd FSW_cmd_ESPERFSTRT MODE START
+
+cmd FSW_cmd_ESPERFSTRT MODE CENTER
+
+cmd FSW_cmd_ESPERFSTRT MODE END
+
+cmd FSW_cmd_ESPERFSTP FILE "/ram/ops_test5.h"
+
+cmd FSW_cmd_FMINFO NAME "/ram/ops_test5.h" CRC ignore
+
+cmd FSW_cmd_FMRM NAME "/ram/ops_test5.h"
+
+cmd FSW_cmd_ESSYSLOGOVR MODE OVR
+
+cmd FSW_cmd_ESSYSLOGOVR MODE DIS
+
+cmd FSW_cmd_ESSYSLOGOVR MODE DIS
+
+cmd FSW_cmd_ESSYSLOGOVR MODE OVR
+
+cmd FSW_cmd_ESPOOLTX NAME "TBL" HANDLE $tblmempoolhndl_int
+
+cmd FSW_cmd_ESALLTASKS FILE "/ram/ops_test6.txt"
+
+cmd FSW_cmd_FMINFO NAME "/ram/ops_test6.txt" CRC ignore
+
+cmd FSW_cmd_FMRM NAME "/ram/ops_test6.txt"
+
+cmd FSW_cmd_FMRM NAME "/ram/ops_test1.txt"
+
+cmd FSW_cmd_FMRM NAME "/ram/ops_test2.txt"
+
+cmd FSW_cmd_FMRM NAME "/ram/ops_test3.txt"
+
+cmd FSW_cmd_FMRM NAME "/ram/ops_test4.txt"
+
+cmd FSW_cmd_FMRM NAME "/ram/ops_test5.h"
+
+cmd FSW_cmd_FMRM NAME "/ram/ops_test6.txt"
+
+cmd FSW_cmd_FMCNTRESET
+
+endseq

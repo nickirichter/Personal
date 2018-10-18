@@ -1,0 +1,18 @@
+Here's the updated sequences and grep/sed lines
+
+
+//Pulls any line out that has CMD in it into cmds.txt
+grep 'CMD ' ../procs/panelqry.prc  > cmds.txt
+
+
+(sed note: -i //changes the file -e //prints out an example of what the file would change to)
+
+//Updates any line with "CMD ADC" to cmd ADC_cmd_
+// Case doesn't matter with CMD
+sed -i 's/^CMD ADC /cmd ADC_cmd_/g' seqPANELQRY.txt 
+
+//Removes all commas
+sed -e 's/,//g' seqPANELQRY.txt
+
+//Removes all "with "
+sed -e 's/with //g' seqPANELQRY.txt 

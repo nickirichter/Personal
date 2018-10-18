@@ -1,0 +1,39 @@
+seq seqTO
+
+cmd FSW_cmd_CDHNOOP
+
+cmd FSW_cmd_TONOOP
+
+cmd FSW_cmd_TOQRYOUTCHL CHANNELID 0
+
+cmd FSW_cmd_TOQRYPQ CHANNELID 0 PQIND 0; TODO - determine number of PQIND need to be sent
+
+cmd FSW_cmd_TOSNDDIAGCMD CHANNELID 0
+
+cmd FSW_cmd_TOQRYOUTCHL CHANNELID 1
+
+cmd FSW_cmd_TOSNDDIAGCMD CHANNELID 1
+
+cmd FSW_cmd_TOQRYPQ CHANNELID 1 PQIND 1; TODO - determine number of PQIND need to be sent
+
+cmd FSW_cmd_TOQRYOUTCHL CHANNELID 2
+
+cmd FSW_cmd_TOSNDDIAGCMD CHANNELID 2
+
+cmd FSW_cmd_TOQRYPQ CHANNELID 2 PQIND 2
+
+cmd FSW_cmd_TOQRYMSGFLW MSGID 2769; 0x0ad1 = CDH_IOCHK_TLM packet
+
+cmd FSW_cmd_TOQRYMSGFLW MSGID 2769; 0x0ad1 = CDH_IOCHK_TLM packet
+
+cmd FSW_cmd_TOQRYMSGFLW MSGID 2769; 0x0ad1 = CDH_IOCHK_TLM packet
+
+cmd FSW_cmd_TOCNTRESET
+
+cmd FSW_cmd_TOABUFFPOS QUEUE 4; what is OK? 10 expected, 4-15 acceptable range
+
+cmd FSW_cmd_TOABUFFPOS QUEUE $abuffq_cmd        
+
+
+endseq
+
